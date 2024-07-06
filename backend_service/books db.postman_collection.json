@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "9ea897f4-e94e-4ede-8953-d39f1aa0a032",
+		"name": "books db",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "34468283"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/api/books/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 10,\n  \"title\": \"Brave New World\",\n  \"authors\": \"Aldous Huxley\",\n  \"isbn\": \"9780060850524\",\n  \"genre\": \"Science Fiction\",\n  \"publicationYear\": 1932,\n  \"publisher\": \"Chatto & Windus\",\n  \"language\": \"English\",\n  \"pages\": 288,\n  \"description\": \"A dystopian novel set in a futuristic society where technological advancements have created a stable, totalitarian state.\",\n  \"summary\": \"A dystopian novel set in a futuristic society.\",\n  \"coverImage\": \"https://example.com/brave-new-world.jpg\",\n  \"rating\": 4.6,\n  \"price\": 9.29\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8000/api/books/"
+			},
+			"response": []
+		}
+	]
+}
