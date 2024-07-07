@@ -13,3 +13,4 @@ npm i dotenv
 npm i bcrypt jsonwebtoken
 npm i --save-dev @types/bcrypt
 npm i --save-dev @types/jsonwebtoken
+npm i zod
